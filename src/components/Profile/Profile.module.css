@@ -1,0 +1,4 @@
+.post__content {
+  grid-area: c;
+  background: lightgreen;
+}

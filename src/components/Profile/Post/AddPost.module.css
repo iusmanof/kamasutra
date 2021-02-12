@@ -1,0 +1,12 @@
+.addpost{
+  display: grid;
+  width: 40%;
+  margin: 0 auto;
+}
+.textarea{
+  border: none;
+  resize: none;
+}
+.button{
+
+}

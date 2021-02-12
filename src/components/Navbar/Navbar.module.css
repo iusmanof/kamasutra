@@ -1,0 +1,21 @@
+.list {
+  grid-area: n;
+  background-color: burlywood;
+}
+
+.list__item {
+  list-style-type: none;
+  
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+  color: #ff964a;
+}
+
+.link__active {
+  color: #d2691e;
+}

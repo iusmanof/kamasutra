@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  grid-area: h;
+  background:cornflowerblue;
+  justify-content: space-between;
+}
+.header__img {
+  width: 10rem;
+  height: 10rem;
+}
+.header__title {
+  width: 500px;
+}

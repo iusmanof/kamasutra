@@ -1,0 +1,26 @@
+.post {
+  width: 600px;
+  margin: 0 auto;
+  
+  display: grid;
+  grid-template-columns: 50px auto;
+  grid-template-rows: 30px auto;
+  grid-template-areas:
+    "a ti"
+    "tex tex ";
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.post__ava {
+  grid-area: a;
+  width: 50px;
+}
+
+.post__title {
+  grid-area: ti;
+}
+
+.post__text {
+  grid-area: tex;
+  width: 300px;
+}

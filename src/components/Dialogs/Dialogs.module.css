@@ -1,0 +1,22 @@
+.wrapper{
+    background: aquamarine;
+}
+
+.dialogs_title{
+    color: red
+}
+
+
+.dialog__items{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+.dialog__names{
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 1f;
+}
+
+.dialog__messages{
+    padding-left: 30px;
+}
