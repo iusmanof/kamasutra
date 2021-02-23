@@ -25,8 +25,12 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className={`${style.list__item}`}>
-          <NavLink className={`${style.link}`} to="/Vault">
-            Vault
+        <NavLink
+            className={`${style.link}`}
+            activeClassName={style.link__active}
+            to="/users"
+          >
+            Users
           </NavLink>
         </li>
         <li className={`${style.list__item}`}>
